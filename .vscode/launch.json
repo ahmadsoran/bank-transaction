@@ -1,0 +1,23 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+          {
+            "name": "Launch Admin",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${cwd}/dev.env",
+            "program": "${cwd}/src/cmd/my-app/main.go"
+          },
+          {
+            "name": "Launch User",
+            "type": "go",
+            "request": "launch",
+            "mode": "auto",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${cwd}/dev.env",
+            "program": "${cwd}/cmd/user/main.user.go"
+          }
+        ]
+        }
